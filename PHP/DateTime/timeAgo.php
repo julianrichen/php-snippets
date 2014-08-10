@@ -134,7 +134,7 @@ function timeAgo($date, $timezone = null, $friendly = true) {
 			return "{$time} {$unit} ago.";
 		}
 	// Catch all errors and report back
-	} catch (Exception $e) {
+	} catch(Exception $e) {
 		echo $e->getMessage();
 	}
 }

@@ -72,7 +72,7 @@ function getGeoIP($ip = null, $jsonArray = false) {
 			// Otherwise return JSON data
 			return $json;
 		}
-	} catch (Exception $e) {
+	} catch(Exception $e) {
 		return $e->getMessage();
 	}
 }

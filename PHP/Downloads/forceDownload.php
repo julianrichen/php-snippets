@@ -253,7 +253,7 @@ function forceDownload($download, $name = null, $speed = null) {
 			exit;
 		}
 	// Catch all errors and report back
-	} catch (Exception $e) {
+	} catch(Exception $e) {
 		echo $e->getMessage();
 	}
 }

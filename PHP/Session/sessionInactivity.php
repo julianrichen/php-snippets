@@ -62,7 +62,7 @@ function sessionInactivity($minutes, $redirect = null) {
 			session_destroy();
 			header("Location: " . $redirect);
 		}
-	} catch (Exception $e) {
+	} catch(Exception $e) {
 		echo $e->getMessage();
 	}
 }
