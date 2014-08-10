@@ -22,6 +22,7 @@ After the main comment you will also find another comment block for each functio
 
 # Can I contribute
 Absolutely! When you create a new snippet make sure you follow these guidelines:
+
 1. Select the appropriate template file from /root/Templates/<file language>/template.ext
     * If one does not exists create one using guidelines from the other templates, if it is acceptable it will be added
 2. Fill in all the information in the first comment block in the template
